@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #eaf4fc;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  #searchBar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .lawyer-card {
+    background-color: #3498db; /* Blue color */
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+  }
+  
+  .lawyer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lawyer-card h3 {
+    margin: 0;
+    color: white;
+  }
+  
+  .lawyer-card p {
+    margin: 5px 0;
+    color: #d5e5f2;
+  }
+  
+  .lawyer-card p:last-of-type {
+    color: #f1c40f; /* Rating stars in gold */
+    font-size: 16px;
+  }
+  
+  

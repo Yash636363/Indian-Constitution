@@ -1,0 +1,122 @@
+/* style.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #337ab7;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.scenario-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.option {
+    margin: 10px 0;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.option:hover {
+    background: #0056b3;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #d9534f;
+}
+
+.score {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #666;
+    color: white;
+}
+
+.user-feedback {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .scenario-card {
+        padding: 15px;
+    }
+
+    .option {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+}
